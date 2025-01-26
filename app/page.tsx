@@ -9,6 +9,7 @@ import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import jobPilotImage from "../public/JobPilot.png";
+import BBCIplayer from "../public/BBCIplayer.png";
 
 export default function Home() {
   return (
@@ -160,7 +161,7 @@ export default function Home() {
                   </p>
                   <p className="font-medium">B.Tech - Computer Science</p>
                   <p className="text-blue-600 dark:text-blue-400">
-                    CGPA : 6.89
+                    CGPA : 6.90
                   </p>
                 </div>
               </div>
@@ -196,6 +197,30 @@ export default function Home() {
                         React, Redux, Tailwind CSS, TypeScript, Mongodb, Node,
                         Express, Socket.io, RabbitMQ, Microservices
                         Architecture, Docker
+                      </p>
+                    </div>
+                    <Button variant="ghost" size="icon">
+                      {"->"}
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="bg-gray-50 dark:bg-zinc-900 border-gray-200 dark:border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image
+                    src={BBCIplayer}
+                    alt="jobPilot"
+                    className="rounded-lg mb-4"
+                  />
+
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="fnt">BBC-IPlayer</h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        Clone{" "}
+                      </p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
+                        React, Tailwind CSS, TypeScript
                       </p>
                     </div>
                     <Button variant="ghost" size="icon">
