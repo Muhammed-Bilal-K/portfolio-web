@@ -230,7 +230,7 @@ export default function Home() {
                 </CardContent>
               </Card>
             </div>
-            <p className="text-gray-500">&copy; 2024 Muhammed Bilal K</p>
+            <p className="text-gray-500">&copy; 2025 Muhammed Bilal K</p>
           </motion.section>
         </main>
       </div>
