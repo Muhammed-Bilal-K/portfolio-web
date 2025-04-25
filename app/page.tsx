@@ -105,7 +105,7 @@ export default function Home() {
                 <FaLinkedin className="w-6 h-6" />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/bilal.k_7/"
                 className="text-gray-600 dark:text-gray-400 
             hover:text-black dark:hover:text-white transition-colors"
               >
